@@ -1,0 +1,16 @@
+# Local source-recovery artifacts - never publish directly
+PRIVATE_INPUT/
+LOCAL_TOOLS/
+WORK_DECOMPILED_NOT_FOR_GITHUB/
+GITHUB_REVIEW_BEFORE_PUSH/
+*.apk
+*.jks
+*.keystore
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+.gradle/
+.idea/
+*.log

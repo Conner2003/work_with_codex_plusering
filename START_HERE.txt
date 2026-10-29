@@ -1,0 +1,12 @@
+PulseRing Super V2.8.1 — Windows APK Source Recovery Kit
+
+1. Extract entire ZIP including PRIVATE_INPUT/ to a folder.
+2. Install Java 11+ and check: java -version
+3. In PowerShell, run:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\Recover-on-Windows.ps1
+4. Review GITHUB_REVIEW_BEFORE_PUSH/ before any GitHub upload.
+
+IMPORTANT: APKs do not retain exact original Kotlin source. This kit contains
+an offline structural analysis and a reproducible JADX extraction script,
+NOT an already fully decompiled, verified buildable Android Studio project.
+Do not upload PRIVATE_INPUT/ or the whole ZIP to GitHub.

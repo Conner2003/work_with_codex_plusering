@@ -1,0 +1,39 @@
+{
+  "filename": "PulseRing Super V2.8.1.apk",
+  "sha256": "dd914f09d326870e51bfcc523bafc8dd766de66ea15aa9c7489ba3a30ad7e6e3",
+  "file_bytes": 46681106,
+  "zip_entries": 141,
+  "dex": [
+    {
+      "file": "classes.dex",
+      "classes": 17929,
+      "methods": 65336,
+      "strings": 93291
+    },
+    {
+      "file": "classes2.dex",
+      "classes": 7810,
+      "methods": 61082,
+      "strings": 66045
+    },
+    {
+      "file": "classes3.dex",
+      "classes": 2159,
+      "methods": 18620,
+      "strings": 18995
+    }
+  ],
+  "native_libs": [
+    "lib/arm64-v8a/libandroidx.graphics.path.so",
+    "lib/armeabi-v7a/libandroidx.graphics.path.so",
+    "lib/x86/libandroidx.graphics.path.so",
+    "lib/x86_64/libandroidx.graphics.path.so"
+  ],
+  "resource_file_count": 48,
+  "candidate_app_class_count": 303,
+  "possible_secret_matches": [],
+  "warnings": [
+    "secret scan was limited to well-known literal formats in DEX strings",
+    "do not claim complete code recovery or a buildable project"
+  ]
+}
